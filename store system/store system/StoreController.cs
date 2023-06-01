@@ -37,7 +37,7 @@ namespace store_system
             double percentageMarkup = double.Parse(args[4]);
             string storeName = args[5];
 
-            Store store = stores.FirstOrDefault(s => s.name == storeName);
+            Store store = stores.FirstOrDefault(s => s.Name == storeName);
             if (store == null)
             {
                 return $"Store {storeName} not found.";
@@ -51,7 +51,7 @@ namespace store_system
             int quantity = int.Parse(args[1]);
             string storeName = args[2];
 
-            Store store = stores.FirstOrDefault(s => s.name == storeName);
+            Store store = stores.FirstOrDefault(s => s.Name == storeName);
             if (store == null)
             {
                 return $"Store {storeName} not found.";
@@ -73,14 +73,14 @@ namespace store_system
         {
             string storeName = args[0];
 
-            Store store = stores.FirstOrDefault(s => s.name == storeName);
+            Store store = stores.FirstOrDefault(s => s.Name == storeName);
             if (store == null)
             {
                 return $"Store {storeName} not found.";
             }
 
-            string info = $"Store name: {store.name}{Environment.NewLine}";
-            info += $"Store type: {store.type}{Environment.NewLine}";
+            string info = $"Store name: {store.Name}{Environment.NewLine}";
+            info += $"Store type: {store.Type}{Environment.NewLine}";
             return info;
         }
           

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace store_system
 {
-    public class Product
+    public abstract class Product
     {
         private string name;
         private int quantity;

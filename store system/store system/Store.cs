@@ -11,7 +11,16 @@ namespace store_system
         private string name;
         private string type;
         private double revenue;
+        private double turnover;
         private List<Product> availableProducts;
+
+        public string Name { get; }
+        public string Type { get; }
+        public double Turnover
+        {
+            get { return turnover; }
+            set { turnover = value; }
+        }
 
         public Store(string name, string type)
         {
@@ -25,8 +34,8 @@ namespace store_system
                 throw new ArgumentException("Store type cannot be null or empty!");
             }
 
-            this.name = name;
-            this.type = type;
+            this.Name = name;
+            this.Type = type;
             this.revenue = 0;
             this.availableProducts = new List<Product>();
         }

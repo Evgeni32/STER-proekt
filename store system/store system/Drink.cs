@@ -8,7 +8,7 @@ namespace store_system
 {
     internal class Drink : Product
     {
-        public Drink(string name, int quantity, double deliverPrice , double percentageMarkup) : base(name , deliverPrice, percentageMarkup)
+        public Drink(string name, int quantity, double deliverPrice , double percentageMarkup) : base(name , quantity, deliverPrice, percentageMarkup)
         {
             if (percentageMarkup > 200)
             {

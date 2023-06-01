@@ -24,7 +24,10 @@ namespace store_system
         }
         public Food(string name, int quantity, double deliverPrice, double percentageMarkup) : base(name, quantity, deliverPrice, percentageMarkup)
         {
-
+            this.Name = name;
+            this.Quantity = quantity;
+            this.DeliverPrice = deliverPrice;
+            this.PercentageMarkup = percentageMarkup;
         }
         
     }

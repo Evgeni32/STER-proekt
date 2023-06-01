@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\student\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Evgeni32\\STER-proekt\\store system\\store system\\store system.csproj",
+      "projectUniqueName": "C:\\Users\\student\\Source\\Repos\\Evgeni32\\STER-proekt\\store system\\store system\\store system.csproj",
       "projectName": "store system",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\Evgeni32\\STER-proekt\\store system\\store system\\store system.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\Evgeni32\\STER-proekt\\store system\\store system\\obj\\",
+      "projectPath": "C:\\Users\\student\\Source\\Repos\\Evgeni32\\STER-proekt\\store system\\store system\\store system.csproj",
+      "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\student\\Source\\Repos\\Evgeni32\\STER-proekt\\store system\\store system\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
