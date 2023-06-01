@@ -8,9 +8,9 @@ namespace store_system
 {
     internal class Drink : Product
     {
-        public Drink(string name, int quantity, double deliverPrice , double percentageMakeup) : base(name , deliverPrice, percentageMakeup)
+        public Drink(string name, int quantity, double deliverPrice , double percentageMarkup) : base(name , deliverPrice, percentageMarkup)
         {
-            if (percentageMakeup > 200)
+            if (percentageMarkup > 200)
             {
                 throw new ArgumentException("Drink percentage cannot be more than 200%!");
             }
