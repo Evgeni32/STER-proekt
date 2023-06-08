@@ -1,4 +1,9 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\store system",
+    "\\store system\\store system"
+  ],
+  "SelectedNode": "\\store system\\store system\\Product.cs",
   "PreviewInSolutionExplorer": false
 }

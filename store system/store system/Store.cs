@@ -26,12 +26,12 @@ namespace store_system
         {
             if (string.IsNullOrEmpty(name))
             {
-                throw new ArgumentException("Store name cannot be null or empty!");
+                throw new ArgumentException("Store name must not be null or empty!");
             }
 
             if (string.IsNullOrEmpty(type))
             {
-                throw new ArgumentException("Store type cannot be null or empty!");
+                throw new ArgumentException("Store type must not be null or empty!");
             }
 
             this.Name = name;

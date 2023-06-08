@@ -21,7 +21,8 @@ namespace store_system
             {
                 var store = new Store(name, type);
                 stores.Add(store);
-                return $"Store '{name}' of type '{type}' created successfully!";
+                return $"Store '{name}' was succesfully registered in the system" +
+                    $"!";
             }
             catch (ArgumentException ex)
             {
@@ -42,7 +43,7 @@ namespace store_system
             {
                 return $"Store {storeName} not found.";
             }
-            return $"Product {name} added to store {storeName}.";
+            return $"Product {name} was successfully delivered to {storeName}.";
         }
 
         public string SellProduct(List<string> args)
@@ -66,7 +67,7 @@ namespace store_system
                 return ex.Message;
             }
 
-            return $"Product {name} sold from store {storeName}.";
+            return $"Product {name} was successfully bought from {storeName}.";
         }
 
         public string StoreInfo(List<string> args)
@@ -79,9 +80,12 @@ namespace store_system
                 return $"Store {storeName} not found.";
             }
 
-            string info = $"Store name: {store.Name}{Environment.NewLine}";
-            info += $"Store type: {store.Type}{Environment.NewLine}";
+            string info = store.ToString();
             return info;
+            
+            //string info = $"Store name: {store.Name}{Environment.NewLine}";
+            //info += $"Store type: {store.Type}{Environment.NewLine}";
+            //return info;
         }
           
         public string Shutdown()
